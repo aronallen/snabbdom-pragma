@@ -22,5 +22,5 @@ export const vnode = (v) => object(v) &&
 
 export const svg = (v) => [
   'svg', 'circle', 'ellipse', 'line', 'polygon',
-  'polyline', 'rect', 'g', 'path', 'text'
+  'polyline', 'rect', 'g', 'path', 'text', 'animate'
 ].includes(v.sel)
